@@ -35,11 +35,34 @@
   width: 100%;
 }
 
-.header__content { 
+.header__content {
   position: fixed;
-  left: 50vw;
-  top: 30vw;
+  left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  color: white;
+  position: relative;
+  width: 100%;
+}
+
+.footer__content {
+  position: fixed;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.footer__heading {
+  font-size: 32px;
+}
+
+.footer__email {
+  font-size: 18px;
+  color: white;
 }
 
 .projects {
@@ -53,4 +76,10 @@
 
 .project:not(:last-child) {
   margin: 0 0 25% 0;
+}
+
+.footer__social {
+  margin: 40px 5px;
+  font-size: 42px;
+  color: white;
 }
