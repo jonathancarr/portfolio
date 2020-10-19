@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Rocket = ({  }) => (
-    <g style={{transform: "translate(-20px, -50px)", transformOrigin: "center" }}>
+    <g style={{transform: "translate(-28.5px, -50px)", transformOrigin: "center" }}>
         <path d="M42.2868 72.2944H14.9011C8.45739 59.3074 12.8875 8.65801 28.1912 0C41.0786 7.79221 49.536 57.1429 42.2868 72.2944Z" fill="white"/>
         <ellipse cx="27.7885" cy="30.7359" rx="7.65189" ry="8.22511" fill="#2C3E50"/>
         <path d="M46.7169 48.4849C47.9251 60.6061 46.3141 67.0996 44.3005 73.1602C46.8511 73.8817 52.8384 75.9307 56.3824 78.355C59.2821 66.9264 51.2811 53.824 46.7169 48.4849Z" fill="white"/>

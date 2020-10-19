@@ -11,9 +11,6 @@ const App = () => {
   // const projectsHeight = projectsRef.current ? projectsRef.current.clientHeight : 0;
   // console.log(projectsHeight)
 
-
-
-
   const [scrollY, setScrollY] = useState(0);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
@@ -38,7 +35,7 @@ const App = () => {
   }, [projectsRef.current, width, height])
 
   const pathStart = useMemo(() => height / 2, [height]);
-  const pathRadius = useMemo(() => width / 2, [width]);
+  const pathRadius = useMemo(() => width > 700 ? width / 2 : width -  30, [width]);
   const pathArcDistance = useMemo(() => 0.5 * Math.PI * pathRadius, [pathRadius]);
 
   useEffect(() => {

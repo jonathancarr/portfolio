@@ -42,8 +42,8 @@ const Background = ({scrollY, pathRadius, pathArcDistance, pathStart, height, pr
         rocketRef.current.style.transform = `translate(${xPos}px, 50%)rotate(${90 + angle}deg)`
         pathRef.current.style.transform = `translateY(${pathRadius + pageOffset}px)`
         textRef.current.style.transform = `translateY(${pageOffset}px)`
-        circleRef.current.style.r = `${backgroundRef.current.clientWidth / 2}px`;
-        footerPathRef.current.style.r = `${backgroundRef.current.clientWidth / 2}px`;
+        circleRef.current.style.r = `${pathRadius}px`;
+        footerPathRef.current.style.r = `${pathRadius}px`;
     }, [scrollY, pathRadius, pathArcDistance]);
 
     return (
@@ -97,45 +97,45 @@ const Background = ({scrollY, pathRadius, pathArcDistance, pathStart, height, pr
                     <clipPath id="circle-masks">
                         <rect
                             x={0}
-                            y={pathStart - pathRadius}
+                            y={pathStart - pathRadius - 50}
                             width="100%"
-                            height={`${pathRadius}px`}
+                            height={`${pathRadius + 50}px`}
                             />
                         <rect
                             x={0}
                             y={pathStart + projectsHeight}
                             width="100%"
-                            height={`${pathRadius}px`}
+                            height={`${pathRadius +  50}px`}
                         />
                     </clipPath>
                 </defs>
-                
+
                 <circle
                     cx="0"
-                    cy="50%"
+                    cy={pathStart}
                     fill="none"
                     stroke="white"
-                    opacity="10%"
-                    strokeWidth="4"
+                    opacity="0.05"
+                    strokeWidth="50"
                     ref={circleRef}
                     clipPath="url(#circle-masks)"
                 />
                 <line
-                    x1="50%"
-                    x2="50%"
+                    x1={pathRadius}
+                    x2={pathRadius}
                     y1={`${pathStart}px`}
                     y2={`${pathStart + projectsHeight}px`}
                     stroke="white"
-                    opacity="10%"
-                    strokeWidth="4"
+                    opacity="0.05"
+                    strokeWidth="50"
                 />
                 <circle
-                    cx="100%"
+                    cx={`${pathRadius * 2}px`}
                     cy={`${pathStart + projectsHeight}px`}
                     fill="none"
                     stroke="white"
-                    opacity="10%"
-                    strokeWidth="4"
+                    opacity="0.05"
+                    strokeWidth="50"
                     ref={footerPathRef}
                     clipPath="url(#circle-masks)"
                 />
