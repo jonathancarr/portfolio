@@ -8,9 +8,6 @@ import Footer from './Footer';
 const App = () => {
   const projectsRef = useRef(null);
 
-  // const projectsHeight = projectsRef.current ? projectsRef.current.clientHeight : 0;
-  // console.log(projectsHeight)
-
   const [scrollY, setScrollY] = useState(0);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
@@ -28,7 +25,6 @@ const App = () => {
 
   const projectsHeight = useMemo(() => {
     if (!projectsRef.current) return 0;
-
 
     var style = getComputedStyle(projectsRef.current);
     return parseInt(projectsRef.current.clientHeight) + parseInt(style.marginTop) + parseInt(style.marginBottom);

@@ -66,20 +66,76 @@
 }
 
 .projects {
-  box-sizing: border-box;
-  margin: 25% 0;
+  margin: 150px 0;
 }
 
 .project {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 100%;
+  align-items: center;
+}
+
+.project__col {
+  width: 50%;
+  padding: 25px 100px;
+  text-align: center;
+}
+
+
+.project__title {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.project__description {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.project__url {
   color: white;
 }
 
+.project__screenshot {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 2 px white;
+}
+
+.project__github {
+  color: white;
+  font-size: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.project__github--icon {
+  color: white;
+  font-size: 28px;
+  margin-right: 8px;
+}
+
 .project:not(:last-child) {
-  margin: 0 0 25% 0;
+  margin: 0 0 300px 0;
 }
 
 .footer__social {
   margin: 40px 5px;
   font-size: 42px;
   color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project__col {
+    width: 80%;
+    padding: 25px 50px 25px 5px;
+    text-align: center;
+  }
 }
