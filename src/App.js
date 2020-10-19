@@ -8,6 +8,11 @@ import Footer from './Footer';
 const App = () => {
   const projectsRef = useRef(null);
 
+  const [imagesLoaded, setImagesLoaded] = useState(0);
+  const newImageLoaded = useCallback(() => {
+    setImagesLoaded(imagesLoaded + 1);
+  }, imagesLoaded, setImagesLoaded)
+
   const [scrollY, setScrollY] = useState(0);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
@@ -28,7 +33,7 @@ const App = () => {
 
     var style = getComputedStyle(projectsRef.current);
     return parseInt(projectsRef.current.clientHeight) + parseInt(style.marginTop) + parseInt(style.marginBottom);
-  }, [projectsRef.current, width, height])
+  }, [projectsRef.current, width, height, imagesLoaded])
 
   const pathStart = useMemo(() => height / 2, [height]);
   const pathRadius = useMemo(() => width > 700 ? width / 2 : width -  30, [width]);
@@ -89,6 +94,7 @@ const App = () => {
       />
       <Projects
         ref={projectsRef}
+        newImageLoaded={newImageLoaded}
       />
       <Footer
         height={pathArcDistance + pathStart}

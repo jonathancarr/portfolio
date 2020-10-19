@@ -4,7 +4,7 @@ import { FaGithubSquare } from "react-icons/fa";
 const PROJECTS = [
     {
         title: "Commute.nz",
-        url: "https://commute.nz",
+        url: "https://commute-nz.herokuapp.com",
         description: "A dashboard for exploring commuter data from the 2018 New Zealand census.",
         githubRepo: "commute-nz",
         githubLink: "https://github.com/jonathancarr/commute-nz",
@@ -28,7 +28,7 @@ const PROJECTS = [
     },
 ]
 
-const Header = forwardRef(({ height }, ref) => (
+const Header = forwardRef(({ height, newImageLoaded }, ref) => (
     <div className="projects" ref={ref} style={{ height }}>
         { PROJECTS.map(project => (
             <div className="project">
@@ -38,7 +38,7 @@ const Header = forwardRef(({ height }, ref) => (
                     <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project__github"><FaGithubSquare className="project__github--icon"/>{project.githubRepo}</a>
                 </div>
                 <div className="project__col">
-                    <a href={project.url} target="_blank" rel="noopener noreferrer"><img className="project__screenshot" src={project.screenshot}/></a>
+                    <a href={project.url} target="_blank" rel="noopener noreferrer"><img className="project__screenshot" src={project.screenshot} onLoad={newImageLoaded}/></a>
                 </div>
             </div>
         ))}
