@@ -1,0 +1,26 @@
+/* http://teamstxt.org */
+
+/* TEAMS */
+
+Tribes | Shared-objective teams of teams:
+Revenue [ AX Enablement, AX (RoW), AX (EU), Growth Product, Growth Marketing ]
+Operations [ Finance, Practice Coaching ]
+Product [ Rainforest, Deep Space, Delivery Enablement, Tech Experience ]
+
+Squads | Cross-functional teams:
+Growth Product, Growth Marketing, Rainforest, Deep Space
+
+Faculties | Role-based teams:
+IT, Research, Development, Design, Account Experience, Front Line Support, Marketing, Product Management, Content, Finance
+
+Agencies | Specialist teams:
+Leadership Team, Practice Coaching, Insights, Accounts, Delivery Enablement
+
+Councils:
+Privacy & Security
+Board | Effective Governance
+
+Clubs:
+Customer Conversations | Voice of the customer
+Accessibility | User research for everyone
+Consistency

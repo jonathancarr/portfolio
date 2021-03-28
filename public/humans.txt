@@ -1,0 +1,290 @@
+/* http://humanstxt.org */
+
+Company: Optimal Workshop
+About: Optimal Workshop is built and sustained by a team of talented people in New Zealand and around the world. If you'd like to join us, see optimalworkshop.com/careers.
+
+/* PEOPLE */
+
+Front Line Support Agent: Aidan Pearce
+teams: AX (RoW), Front Line Support
+
+Brand Marketing Manager: Alannah Rosa
+teams: Brand Experience, Marketing
+
+AX Manager: Alex Doggett
+teams: AX (RoW), Account Experience
+
+Product Manager: Andreas Benz
+teams: Deep Space, Product Management
+
+CEO: Andrew Mayfield
+teams: Leadership Team, Board
+
+Applications Manager: Ben Stokes
+teams: AX Enablement, IT
+
+Developer: Bernette Yee
+teams: Deep Space, Growth Product, Development
+
+Developer: Bernat Duran
+teams: Tech Experience, Development
+
+Developer: Brandon Mikel
+teams: Growth Product, Development
+
+Product Marketing Manager: Caitlin McDougall
+teams: Brand Experience, Marketing, Product Management
+
+Front Line Customer Success Agent: Caitlyn Parker
+teams: Growth Marketing, Front Line Support
+
+Technical BA: Charlie Ascarate
+teams: Operations, IT
+
+Practice Coach: Dan Brown
+teams: People Experience, Practice Coaching
+
+Content Strategist: David Renwick
+teams: Growth Marketing, Marketing, Content
+
+Finance Manager: Deb Dornbusch
+teams: Accounts, Finance [Lead]
+
+Practice Coach: Dianne Skelton
+teams: People Experience, Practice Coaching
+
+Director: Ed Robinson
+teams: Board [ Independent member ]
+
+CX Strategist: Ella Fielding
+teams: Insights, Research
+
+Office Experience Manager: Eva Yocum
+teams: People Experience, Practice Coaching
+
+Developer: Gabe Young
+teams: AX Enablement, Development
+
+Developer: Gregory Cheng [leave]
+teams: Growth Product, Development
+
+AX Manager: Irina Raynaud
+teams: AX (RoW), Account Experience
+
+Developer: Jack Purvis
+teams: Rainforest, Development
+
+Developer: James Kiesel
+teams: AX Enablement, Development
+
+Chief Revenue Officer: James Wood
+teams: Leadership Team, AX (EU), Revenue
+
+Chief Marketing Officer: Jane Smallfield
+teams: Leadership Team, Marketing
+
+Data Analyst: Jeremy Webster
+teams: Insights, Data
+
+Customer Engagement Manager: Joel Hetariki
+teams: Insights, Research, Product Management
+
+People Experience Officer: Julie Reddish
+teams: People Experience, Practice Coaching [Lead]
+
+Product Manager: Karl Gerrie
+teams: Rainforest, Product Management
+
+Designer: Karl Madsen
+teams: Brand Experience, Design [Lead]
+
+Developer: Katie French
+teams: Deep Space, Development
+
+Designer: Keisuke Tanaka
+teams: Growth Marketing, Marketing, Design
+
+Chief Product Officer: Kelsey Schwynn [Leave]
+teams: Leadership Team, Product, Product Management
+
+CX Strategist: Kelsey Thomson
+teams: Insights, Research
+
+Product Designer: Kyle Henwood
+teams: Delivery Enablement, Design
+
+Developer: Lucy Dement
+teams: Tech Experience, Development
+
+Chief Product Officer (Acting): Matt Barnett
+teams: Leadership Team, Product
+
+Site Reliability Engineer: Matt Green
+teams: Tech Experience, Development
+
+Developer: Matt Powell
+teams: Deep Space, Development
+
+Front Line Support Agent: Matt Searle
+teams: AX (EU), Front Line Support
+
+Data Scientist: Matthew Petersen
+teams: Insights, Data
+
+Growth Designer: Maureen Placente
+teams: Growth Product, Design, Research
+
+Chief Operations Officer: Meiken Bassant
+teams: Operations, Leadership
+
+Security & Privacy Officer: Micah de Vos
+teams: Operations, IT
+
+Operations Coordinator: Michael Hebenton
+teams: People Experience
+
+Developer: Michael Kuhinica
+teams: Rainforest, Development
+
+AX Manager: Mick Gilley
+teams: AX (EU), Account Experience
+
+Design Intern: Morgan Dallas
+teams: Rainforest, Design
+
+Campaign Marketing Manager: Nathan Barker
+teams: Growth Marketing, Marketing [Lead]
+
+Head of Account Experience: Niloy Roy
+teams: AX Enablement, Account Experience [Lead]
+
+Product Manager: Penny Goodwin
+teams: Delivery Enablement, Product Management [Lead]
+
+Accounts Assistant: Priscila Diniz
+teams: Accounts, Finance
+
+Developer: Rafa Pérez
+teams: Tech Experience, Development
+
+User Researcher: Rebecca Klee
+teams: Deep Space, Research
+
+AX Manager: Ronnie Walker
+teams: AX (RoW), Account Experience
+
+Special Events & Campaigns Manager: Sarah Paxton
+teams: Brand Experience, Marketing
+
+Front-end Developer: Serge Seva
+teams: Rainforest, Design, Development
+
+Head of Tech: Seth Strumph
+teams: Delivery Enablement, Development [Lead]
+
+Designer & Researcher: Shanshan Zhou
+teams: Rainforest, Design, Research
+
+Interim Chair: Shailesh Manga
+teams: Board [ Shareholding member ]
+
+Growth Product Manager: Shirin Bradfield
+teams: Growth Product, Product Management, Marketing
+
+IT Officer: Simon Haren
+teams: People Experience, IT
+
+Front Line Support Agent: Thomas Roxburgh
+teams: AX Enablement, Front Line Support [Lead]
+
+Developer: Tracey Norrish
+teams: Deep Space, Development
+
+
+
+
+
+
+alumni: Ania Mastalerz
+
+alumni: Stu Watson
+
+alumni: James Player
+
+alumni: Chloe Mudge
+
+alumni: Kira Bialczynska
+
+alumni: Alexa Grellet
+
+alumni: Vivienne Yapp
+
+alumni: Janaki Saba
+
+alumni: Nichola King
+
+alumni: Andy Summers
+
+alumni: Max Koh
+
+alumni: Charlotte Burt
+
+alumni: Kelly Cheesman
+
+alumni: Marine Bucher
+
+alumni: Jinelle Foley-Barnes
+
+alumni: Paul Prestidge
+
+alumni: Sam Straun
+
+alumni: Olivia Hobson
+
+alumni: Bren Murrell
+
+alumni: Caleb Keene
+
+alumni: Jayesh Mistry
+
+alumni: Kirstie Marsh
+
+alumni: Alasdair Macleod
+
+alumni: Jonathan Carr
+
+alumni: Leonardo Frangelli
+
+alumni: Jimmy Sutcliffe
+
+alumni: Laura Harnett
+
+alumni: Rebekka Blok
+
+alumni: Kat Hardisty
+
+alumni: Steve Willsher
+
+alumni: Ross Baird
+
+alumni: Matthew Taine
+
+alumni: Ellery Prisk
+
+alumni: Matthew Mayfield
+
+alumni: Alan O'Neill
+
+alumni: Samantha Ryan
+
+alumni: Nahum Wild
+
+alumni: Chad Sandeman
+
+alumni: Mila Dymnikova
+
+alumni: Paddy McShane
+
+alumni: Gordon Chan
+
+/* SITE */
